@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom:2rem ;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom:2rem;
+}
+#password{
+    width: 400px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    margin-right:1rem ;
+}
+button{
+    border: none;
+    align-items: center;
+    padding: 1rem;
+    
+    font-size:1rem;
+    cursor: pointer;
+    background-color:rgb(252, 91, 32);
+    color: white;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+button:hover{
+    background-color:rgb(178, 68, 9) ;
+}
+.button-container{
+    padding-left: 0;
+    padding-right: 150px;
+    padding-top: 30px;
+}
